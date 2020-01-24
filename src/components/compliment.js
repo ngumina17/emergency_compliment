@@ -39,7 +39,8 @@ const data = [
     "You deserve a compliment!",
     "Hello, good looking."
   ];
-function compliment () {
+
+function compliments () {
     let randomCompliment =data[math.random(math.floor*(data.length))] 
     return (
         <h1>{randomCompliment}</h1>
